@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, sans-serif
+
+}
+
+.imghomepage{
+    text-align: center;
+    display: block;
+}
+nav{
+    background-color: #165325;
+}
+
+nav ul{
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    font-weight: bold;
+}
+
+nav ul li a :hover{
+    background-color: #026e07;
+    text-decoration: underline;
+}
+h2{
+    color: black;
+    margin: 10px;
+    padding: 20px;
+}
+p{
+    font-family: verdana, sans-serif;
+    margin: 20px;
+    padding: 2px;
+    text-align: center;
+}
