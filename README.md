@@ -7,7 +7,7 @@ Este repositório contém informações sobre a relação entre mudança climát
 - [Problemas](#problemas)
 - [Soluções](#soluções)
 
-##Mudança Climática
+## Mudança Climática
 Exploraremos como a arquitetura e organização de computadores estão intrinsecamente ligadas às mudanças climáticas, examinando tanto os desafios quanto as oportunidades que elas apresentam.
 
 ## Problemas 
