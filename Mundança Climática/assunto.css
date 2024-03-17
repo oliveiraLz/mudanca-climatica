@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to top, #014e1f,#014e1f);
+}
+
+.logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+.image-logo{
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    margin: 10px;
+}
+.nome-logo{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    line-height: 50px;
+    position: absolute;
+    padding: 10px;
+}
+.navbar {
+    background-color: transparent;
+    overflow:hidden;
+
+}
+.navbar ul{
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    float:inline-end;
+}
+.navbar ul li{
+    float:left;
+}
+.navbar ul li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-decoration-line: underline;
+    color: #165325;
+    font-weight: bold;
+}
