@@ -1,6 +1,5 @@
 body{
-    font-family: Arial, sans-serif
-
+    font-family: Arial, sans-serif;
 }
 
 .imghomepage{
@@ -23,7 +22,7 @@ nav ul li{
 }
 
 nav ul li a{
-    display: block;
+    display: flex;
     color: white;
     text-decoration: none;
     padding: 10px 25px;
@@ -37,11 +36,31 @@ nav ul li a :hover{
 h2{
     color: black;
     margin: 10px;
-    padding: 20px;
+    padding: 30px;
+    margin-top: 10px;
 }
 p{
     font-family: verdana, sans-serif;
     margin: 20px;
-    padding: 2px;
-    text-align: center;
+    padding: 10px;
+    text-align: justify;
+    line-height: 25px;
+    background-color: #026e07;
+    border-radius: 10px;
+}
+
+#lista_integrantes{
+    background-color: #026e07;
+    color: white;
+    margin: 20px;
+    width: 140px;
+    padding: 28px;
+    border-radius: 6px;
+    line-height: 20px;
+}
+#Integrantes{
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    margin-top: 10px;
 }
