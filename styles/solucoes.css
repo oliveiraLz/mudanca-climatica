@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to top, #014e1f,#014e1f);
+    background: linear-gradient(to top, #4ba56e,#014e1f);
 }
 
 .logo{
@@ -50,4 +50,31 @@ body {
     text-decoration-line: underline;
     color: #165325;
     font-weight: bold;
+}
+.container{
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+h3{
+    font-size: medium;
+    margin-bottom: 5px;
+}
+p{
+    font-size: 16px;
+    margin-bottom: 5px;
+    line-height: 1.20;
+    text-align: justify;
+}
+li{
+    margin-bottom: 5px;
+    line-height: 1.30;
+    text-align: justify;
+}
+ul{
+    list-style-type: disc;
+    padding-left: 30px;
 }
