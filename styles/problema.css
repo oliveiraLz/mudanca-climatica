@@ -1,8 +1,9 @@
-/*body {
+body {
     font-family: Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
-    padding: 0;
-    background: linear-gradient(to top, #014e1f,#014e1f);
+    padding: 20px;
+    background: linear-gradient(to top, #4ba56e,#014e1f);
 }
 
 .logo{
@@ -50,4 +51,22 @@
     text-decoration-line: underline;
     color: #165325;
     font-weight: bold;
+}
+.container{
+    max-width: 800px;
+    margin:auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.h1{
+    margin-bottom: 20px;
+}
+p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+ul{
+    list-style-type: disc;
 }

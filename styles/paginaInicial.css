@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to top, #014e1f,#014e1f);
+    background: linear-gradient(to top, #4ba56e,#014e1f);
 }
 
 .logo{
@@ -26,7 +26,6 @@ body {
 .navbar {
     background-color: transparent;
     overflow:hidden;
-
 }
 .navbar ul{
     list-style-type: none;
@@ -56,6 +55,7 @@ body {
     margin: 20px auto;
     padding: 0 20px;
     border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 article p{
     color: white;
@@ -97,7 +97,9 @@ article p{
     margin-top: 0;
     color: white;
 }
-
+/*.news-item1 p{
+    
+}*/
 .news-item1 a{
     color: white;
 }
