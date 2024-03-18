@@ -145,7 +145,6 @@ article p{
     color: white;
     
 }
-
 .news-item4 h3 {
     margin-top: 0;
     color: white;
@@ -153,4 +152,45 @@ article p{
 }
 .news-item4 a{
     color: white;
+}
+.carousel {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    max-height: 400px;
+}
+
+.carousel-content {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.news {
+    flex: 0 0 100%;
+    padding: 20px;
+}
+
+.news img {
+    width: 100%;
+    height: auto;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    z-index: 1;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
 }
